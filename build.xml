@@ -86,4 +86,13 @@
     </delete>
   </target>
 
+  <target name="firstprog">
+    <antcall target="compile">
+      <param name="srcdir" value="firstprog" />
+      <param name="jarfilename" value="firstprog.jar" />
+      <param name="jardir" value="firstprog" />
+      <param name="mainclass" value="FirstProgram" />
+    </antcall>
+  </target>
+
 </project>
